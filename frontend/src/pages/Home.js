@@ -22,7 +22,7 @@ function Home() {
 
   const fetchProducts = async () => {
     try {
-      const url = "http://localhost:5173/products";
+      const url = "https://login-and-signup-auth-api.vercel.app/products";
       const headers = {
         headers: {
           Authorization: localStorage.getItem("token"),
